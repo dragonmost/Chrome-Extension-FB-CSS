@@ -40,6 +40,12 @@ div._5t_y{margin:0}._5t_y ._55d0,._5t_y ._1dsp{-webkit-border-radius:0 0 3px 3px
 /*opened chat name*/ 
 #u_0_2x{color:#ffffff !important}
 
+/*description in event page*/
+._1w2q{color:#ffffff !important}
+
+/*my events (grey background for now)*/
+._5plv{background-color:#cccccc !important}
+
 
 
 
@@ -49,3 +55,17 @@ div._5t_y{margin:0}._5t_y ._55d0,._5t_y ._1dsp{-webkit-border-radius:0 0 3px 3px
 
 .back{background-color:#000000 !important}
 ._42ft ._4jy0 ._11b ._4jy3 ._4jy1 /*selected*/ 
+
+
+
+
+
+
+
+/*
+var iframe = document.createElement('iframe');
+iframe.style.display = "none";
+iframe.src =  your URL here ;
+document.body.appendChild(iframe);
+
+*/
