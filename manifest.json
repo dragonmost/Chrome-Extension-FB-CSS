@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "FB CSS Extension",
+  "description": "This extension changes FB CSS",
+  "version": "1.0",
+
+  "content_scripts":[ 
+	{
+    "matches": ["https://www.facebook.com/*"],
+	"js": ["./FB/fb adb.js"],
+    "css": ["./FB/fb.css"],
+	"run_at" : "document_start"
+	}
+  ],
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ]
+}
